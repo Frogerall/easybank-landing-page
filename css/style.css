@@ -396,7 +396,7 @@ nav a {
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: first baseline;
   align-items: center;
 }
 .intro-col h3 {
@@ -412,6 +412,13 @@ nav a {
     align-items: flex-start;
     text-align: start;
     flex: 0 0 45%;
+  }
+}
+@media (min-width: 1024px) {
+  .intro-col {
+    align-items: flex-start;
+    text-align: start;
+    flex: 0 0 20%;
   }
 }
 
